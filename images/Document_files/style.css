@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.all {
+  width: 100%;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 20px;
+}
+.navcont {
+  width: 90%;
+}
+
+.logonav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.endnav {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.register {
+  border: 2px solid #0057c2;
+  padding: 7px;
+  border-radius: 10px;
+}
+.fa-bars {
+  display: none;
+}
+
+span {
+  color: #0057c2;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+span:hover {
+  cursor: pointer;
+  color: #333333;
+}
+
+p > a {
+  text-decoration: none;
+  color: #333333;
+}
+
+p > a:hover {
+  cursor: pointer;
+  color: #0057c2;
+  /* text-decoration: 2px underline #0057c2; */
+}
+
+.part1 {
+  background: #d6dcfd;
+  box-shadow: inset 0px 4px 4px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.part1cont {
+  /* background-color: blue; */
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftstroke {
+  position: absolute;
+  left: 10px;
+  top: 1.5px;
+  width: 110px;
+}
+.rightstroke {
+  position: absolute;
+  right: 10px;
+  width: 280px;
+}
+.part1left {
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  color: #1560bd;
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 47px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.spark {
+  width: 35px;
+}
+.part1left > p {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.part1right {
+  width: 50%;
+  /* background-color: red; */
+  margin-top: 40px;
+}
+.part1right > img {
+  width: 80%;
+}
+
+.butpin {
+  position: relative;
+}
+.button1 {
+  /* margin: 20px 0; */
+  position: absolute;
+  padding: 10px 50px;
+  background-color: #1560bd;
+  border: none;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.pin {
+  position: absolute;
+  width: 50px;
+  left: 40%;
+  margin-top: 20px;
+}
+.part2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.part2cont {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 > span {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.searchcont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.search {
+  width: 100px;
+  position: absolute;
+  margin-left: 65px;
+}
+.searchcont > h2 {
+  font-size: 20px;
+  margin-right: 100px;
+}
+.partrisk {
+  display: flex;
+  text-align: left;
+  margin-top: 80px;
+  /* background-color: red; */
+}
+
+h3 {
+  font-size: 25px;
+  width: 65%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.riskcont > p {
+  color: #333333;
+  width: 65%;
+  font-size: 23px;
+}
+.icon1 {
+  width: 50px;
+}
+.icon2,
+.icon3 {
+  width: 60px;
+}
+
+.icon3 {
+  margin-top: 5px;
+}
+.part3 {
+  background-image: url(images/bg.png);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+.middlestroke {
+  position: absolute;
+  left: -10px;
+  top: -60px;
+  width: 200px;
+}
+.endstroke {
+  position: absolute;
+  bottom: -70px;
+  right: -10px;
+  width: 200px;
+}
+.spanner1 {
+  width: 20px;
+  position: absolute;
+  left: 22%;
+  top: 40%;
+}
+
+.spanner2 {
+  width: 20px;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.spanner3 {
+  width: 20px;
+  position: absolute;
+  left: 75%;
+  top: 28%;
+}
+.spanner4 {
+  width: 20px;
+  position: absolute;
+  left: 15%;
+  top: 57%;
+}
+.spanner5 {
+  width: 20px;
+  position: absolute;
+  left: 52%;
+  top: 72%;
+}
+
+.spanner6 {
+  width: 20px;
+  position: absolute;
+  left: 10%;
+  top: 90%;
+}
+
+.part3head > h3 {
+  margin-top: 50px;
+  width: 100%;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+}
+.spanner {
+  width: 20px;
+  position: absolute;
+  top: -10px;
+}
+.part3left {
+  margin-right: 60px;
+}
+.num {
+  width: 100px;
+}
+
+/* .num:hover {
+  cursor: pointer;
+  background-color: red;
+  transition: 0.8s ease-in-out;
+} */
+
+.part3cont {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.part3search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.howimg {
+  width: 250px;
+}
+.howimg1 {
+  height: 250px;
+  width: 250px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.part3right {
+  padding: 30px;
+}
+.part3box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 80px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px 1px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 20px;
+}
+.boxcont {
+  width: 70%;
+  padding: 10px;
+  color: #1560bd;
+}
+
+.boxcont > h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.boxcont > p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.part4 {
+  display: flex;
+  width: 100vw;
+  height: 700px;
+  background-color: red;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part4content{
+  background-color: #333333;
+  width: 90%;
+  height: 450px;
+  position: relative;  display: flex;
+}
+.part4billcont{
+  background-color: #0057c2;
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  bottom: 0;
+
+}
+.phone{
+  width: 70%;
+  /* position: absolute;
+  z-index: 1; */
+}
+.butpin2 {
+  position: relative;
+}
+.button2 {
+  padding: 10px 50px;
+  background-color: #fff;
+  border: none;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  color: #1560bd;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.pin2 {
+  position: absolute;
+  width: 50px;
+  left: 57%;
+}
